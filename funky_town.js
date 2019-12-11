@@ -1,5 +1,12 @@
+/*
+Justin Chen and Devin Lin
+SoftDev1 pd02
+K#27 -- Sequential Progression
+2019-12-10
+*/
+
 var fact = function (n) {
-    if (n == 1) {
+    if (n <= 1) {
         return 1;
     }
     return (n * (fact(n - 1)));

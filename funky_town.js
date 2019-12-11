@@ -20,3 +20,9 @@ var gcd = function (a, b) {
     if (a % b == 0) return b;
     return gcd(b, a % b);
 };
+
+var students = ["bob", "jane", "billy", "john", "alfred", "mike"];
+
+var randomStudent = function () {
+  return students[parseInt(Math.random() * students.length)]
+};

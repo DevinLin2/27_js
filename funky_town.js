@@ -16,6 +16,7 @@ var fibonacci = function (n) {
 };
 
 var gcd = function (a, b) {
-    if (b  == 0) return a;
+    if (a == 0) return 0;
+    if (a % b == 0) return b;
     return gcd(b, a % b);
 };
